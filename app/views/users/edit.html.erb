@@ -10,11 +10,11 @@
 <% end %>
 
 <%= form_with(model: @user) do |form| %>
-    <%= form.label :username, "Username:" %>
+    <%= form.label :username %>
     <%= form.text_field :username %>
     <br/><br/>
     <%= form.label :email, "Email:" %>
-    <%= form.email_field :email, placeholder: "example@domain.com" %>
+    <%= form.email_field :email %>
     <br/><br/>
     <%= form.label :password, "Password:" %>
     <%= form.password_field :password%>
